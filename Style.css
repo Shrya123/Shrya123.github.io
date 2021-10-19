@@ -1,0 +1,53 @@
+body {
+	/* Setting a background gradient using a Google Images .jpg file. Source: https://www.w3schools.com/cssref/css3_pr_background.asp*/
+background: url('backgroundgradient.jpg') repeat-x;
+/* Everything in the above body element is going to be centered. Source: https://www.w3schools.com/cssref/pr_text_text-align.ASP */
+text-align: center;
+}
+#main {
+width:1000px;
+height: 600px;
+/* Changing the background color found on https://www.color-hex.com/. Source: https://www.w3schools.com/cssref/pr_background-color.asp */
+background: #e5acb6;
+/* Setting a top, bottom, left, and right margin. Source: https://www.w3schools.com/css/css_margin.asp */
+margin: 25px auto;
+/* Making the box of text more distinguished choosing a color from https://www.color-hex.com/. Source: https://www.w3schools.com/css/css_border.asp */
+border: solid 2px #ff3819;
+padding: 10px;
+}
+h1 {
+text-align: center;
+/* Choosing the font of my header 1 (title of my webpage) using a color from https://www.color-hex.com/. Source: https://www.w3schools.com/cssref/pr_font_font-family.asp */
+font-family:"Times New Roman";
+font: 24pt;
+color: #ff3819;
+}	
+hr {
+/* Choosing the color and height of the underline/border, using a color from https://www.color-hex.com/. Source: https://www.w3schools.com/howto/howto_css_style_hr.asp */
+height:2px;
+color: #ff3819;
+}
+p {
+/* Styling the paragraph, using a color from https://www.color-hex.com/. Source: https://www.w3schools.com/css/css_text.asp */
+font-family:"Calibri";
+font-size: 12pt;
+text-align: left;
+text-indent: 48px;
+color: #2f2d2d;
+/* Styling the tables with CSS. Source: https://www.w3schools.com/css/css_table.asp */
+}
+table {
+width: 75%;
+}
+
+th, caption {
+	text-align: center;
+}
+table, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+/* Creating space around an element's content. Source: https://www.w3schools.com/css/css_padding.asp */
+}
+th,td {
+	padding: 10px;
+}
